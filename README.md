@@ -1,2 +1,6 @@
 # DSA-JavaScript
-A repo of Data Structure and Algorithm concepts with JavaScript
+A repo of Data Structure and Algorithm concepts with JavaScript.
+
+### Sorting Algorithms
+1. Insertion Sort
+2. Merge Sort

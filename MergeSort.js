@@ -1,7 +1,11 @@
 const readline = require("./readline");
 
 function main(inputArr) {
+if(inputArr.length>1){
     
+
+}
+console.log(inputArr);
 }
 
 readline().then((data) => {
