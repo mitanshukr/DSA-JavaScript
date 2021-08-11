@@ -1,6 +1,6 @@
 const readLine = require("readline");
 
-const readline = () => {
+const read = () => {
   const rl = readLine.createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -12,6 +12,19 @@ const readline = () => {
       rl.close();
     })
   );
+};
+
+const readline = (main) => {
+  read().then((data) => {
+    const arrTemp = data.split(" ");
+    const arr = arrTemp.map((num) => {
+      if (isNaN(num)) {
+        throw new Error("Please provide valid input data.");
+      }
+      return +num;
+    });
+    main(arr);
+  });
 };
 
 module.exports = readline;

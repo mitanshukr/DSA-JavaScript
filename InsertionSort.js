@@ -1,5 +1,7 @@
 const readline = require("./readline");
 
+readline(main);
+
 function main(inputArr) {
   for (let i = 1; i < inputArr.length; i++) {
     let key = inputArr[i];
@@ -13,14 +15,3 @@ function main(inputArr) {
 
   console.log(inputArr);
 }
-
-readline().then((data) => {
-  const arrTemp = data.split(" ");
-  const arr = arrTemp.map((num) => {
-    if (isNaN(num)) {
-      throw new Error("Please provide valid input data.");
-    }
-    return +num;
-  });
-  main(arr);
-});
