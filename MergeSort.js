@@ -1,22 +1,5 @@
 const readline = require("./readline");
 
-readline(main);
-
-function main(arr) {
-  mergeSort(arr, 0, arr.length - 1);
-  console.log(arr);
-}
-
-function mergeSort(arr, p, r) {
-  if (p >= r) {
-    return;
-  }
-  const q = Math.floor((p + r) / 2);
-  mergeSort(arr, p, q);
-  mergeSort(arr, q + 1, r);
-  merge(arr, p, q, r);
-}
-
 function merge(arr, p, q, r) {
   const L = [];
   const R = [];
@@ -40,3 +23,21 @@ function merge(arr, p, q, r) {
   }
   //   return arr;
 }
+
+function mergeSort(arr, p, r) {
+  if (p >= r) {
+    return;
+  }
+  const q = Math.floor((p + r) / 2);
+  mergeSort(arr, p, q);
+  mergeSort(arr, q + 1, r);
+  merge(arr, p, q, r);
+}
+
+function main(arr) {
+  mergeSort(arr, 0, arr.length - 1);
+  console.log(arr);
+}
+
+readline(main);
+

@@ -22,6 +22,7 @@ readline(insertionSort);
     place in a sorted list. We divide our data in two list - sorted and 
     unsorted, then pick each unsorted element and place in sorted list at 
     appropriate place.
+    This is also known as `Decrease and Conquer Sort`.
 
 2. This sorting technique is considered same as Card Games.
 
