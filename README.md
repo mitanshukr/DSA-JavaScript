@@ -13,7 +13,7 @@ A repo of Data Structure and Algorithm concepts with JavaScript.
 | Insertion Sort   | O(n^2)     | O(n^2)       | O(n)      | O(1)             |
 | Bubble Sort      | O(n^2)     | O(n^2)       | O(n)      | O(1)             |
 | Selection Sort   | O(n^2)     | O(n^2)       | O(n^2)    | O(1)             |
-| Merge Sort       | O(nlogn)   |              |           | O(n)             |
+| Merge Sort       | O(nlogn)   | O(nlogn)     | O(nlogn)  | O(n)             |
 | Quick Sort       |            |              |           |                  |
 | Shell Sort       |            |              |           |                  |
 | Heap Sort        |            |              |           |                  |
