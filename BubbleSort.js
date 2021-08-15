@@ -1,5 +1,4 @@
 const readline = require("./readline");
-readline(main);
 
 function swap(arr, p, q) {
   const temp = arr[p];
@@ -7,7 +6,7 @@ function swap(arr, p, q) {
   arr[q] = temp;
 }
 
-function main(arr) {
+function bubbleSort(arr) {
   let swapped;
   let j = 0; //no. of sorted index or elements.
   let swapCount = 0; //optional feature
@@ -27,6 +26,8 @@ function main(arr) {
   console.log("Total Number of Swaps required: " + swapCount);
 }
 
+readline(bubbleSort);
+
 /*****************************************************
 * Bubble Sorting:
 * ---------------------------------------
@@ -45,7 +46,9 @@ function main(arr) {
 *
 * 5. Space Complexity: O(1) -----> 3 Variables.
 *
-* 6. Pseudo Code [Bubble Sort]:
+* 6. Bubble sort is a Stable and In-place sorting algorithm.
+*
+* 7. Pseudo Code [Bubble Sort]:
         do
             swapped = false;
             for i = 1 to indexOfUnsortedElement-1
