@@ -12,6 +12,7 @@ A repo of Data Structure and Algorithm concepts with JavaScript.
 6. Counting Sort
 7. Radix Sort
 
+
 | Name/Complexity       | Worst Case | Average Case | Best Case | Space Complexity |
 | --------------------- | ---------- | ------------ | --------- | ---------------- |
 | Insertion Sort        | O(n^2)     | O(n^2)       | O(n)      | O(1)             |
