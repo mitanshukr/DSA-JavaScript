@@ -25,3 +25,8 @@ A repo of Data Structure and Algorithm concepts with JavaScript.
 | Radix Sort            |            |              |           |                  |
 | Heap Sort             |            |              |           |                  |
 | Binary Tree Sort      |            |              |           |                  |
+
+### Search Algorithms
+
+1. Sequential Search (Linear Search)
+2. Binary Search
