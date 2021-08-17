@@ -26,7 +26,7 @@ A repo of Data Structure and Algorithm concepts with JavaScript.
 | Heap Sort             |            |              |           |                  |
 | Binary Tree Sort      |            |              |           |                  |
 
-### Search Algorithms
+### Searching Algorithms
 
 1. Sequential Search (Linear Search)
 2. Binary Search
