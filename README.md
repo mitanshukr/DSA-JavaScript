@@ -17,6 +17,11 @@ A repo of Data Structure and Algorithm concepts with JavaScript.
 | 8. Heap Sort              |            |              |           |                  |
 | 9. Binary Tree Sort       |            |              |           |                  |
 
+### Searching Algorithms
+
+1. Sequential Search (Linear Search)
+2. Binary Search
+
 ### Recursion
 
 1. Factorial of n
