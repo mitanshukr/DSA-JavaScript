@@ -4,24 +4,27 @@ A repo of Data Structure and Algorithm concepts with JavaScript.
 
 ### Sorting Algorithms
 
-1. Insertion Sort
-2. Bubble Sort
-3. Selection Sort
-4. Merge Sort
-5. Quick Sort
-6. Counting Sort
-7. Radix Sort
+| Name/Complexity           | Worst Case | Average Case | Best Case | Space Complexity |
+| ------------------------- | ---------- | ------------ | --------- | ---------------- |
+| 1. Insertion Sort         | O(n^2)     | O(n^2)       | O(n)      | O(1)             |
+| 2. Bubble Sort            | O(n^2)     | O(n^2)       | O(n)      | O(1)             |
+| 3. Selection Sort         | O(n^2)     | O(n^2)       | O(n^2)    | O(1)             |
+| 4. Merge Sort             | O(nlogn)   | O(nlogn)     | O(nlogn)  | O(n)             |
+| 5. Quick Sort             | O(n^2)     | O(nlogn)     | O(nlogn)  | O(n)/O(logn)     |
+| 5a. Randomized Quick Sort | O(nlogn)   | O(nlogn)     | O(nlogn)  | O(logn)          |
+| 6. Counting Sort          |            |              |           |                  |
+| 7. Radix Sort             |            |              |           |                  |
+| 8. Heap Sort              |            |              |           |                  |
+| 9. Binary Tree Sort       |            |              |           |                  |
 
+### Recursion
 
-| Name/Complexity       | Worst Case | Average Case | Best Case | Space Complexity |
-| --------------------- | ---------- | ------------ | --------- | ---------------- |
-| Insertion Sort        | O(n^2)     | O(n^2)       | O(n)      | O(1)             |
-| Bubble Sort           | O(n^2)     | O(n^2)       | O(n)      | O(1)             |
-| Selection Sort        | O(n^2)     | O(n^2)       | O(n^2)    | O(1)             |
-| Merge Sort            | O(nlogn)   | O(nlogn)     | O(nlogn)  | O(n)             |
-| Quick Sort            | O(n^2)     | O(nlogn)     | O(nlogn)  | O(n)/O(logn)     |
-| Randomized Quick Sort | O(nlogn)   | O(nlogn)     | O(nlogn)  | O(logn)          |
-| Counting Sort         |            |              |           |                  |
-| Radix Sort            |            |              |           |                  |
-| Heap Sort             |            |              |           |                  |
-| Binary Tree Sort      |            |              |           |                  |
+1. Factorial of n
+2. Summation of numbers from 1 to n
+3. Base Conversion
+4. Exponentiation of a number
+5. Prime Factorization
+6. Greatest Common Divisor
+7. Fibonacci Series
+8. Divisibility Check by 9 and 11
+9. Tower of Hanoi
