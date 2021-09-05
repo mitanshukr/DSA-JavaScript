@@ -4,18 +4,18 @@ A repo of Data Structure and Algorithm concepts with JavaScript.
 
 ### Sorting Algorithms
 
-| Name/Complexity           | Worst Case | Average Case | Best Case | Space Complexity |
-| ------------------------- | ---------- | ------------ | --------- | ---------------- |
-| 1. Insertion Sort         | O(n^2)     | O(n^2)       | O(n)      | O(1)             |
-| 2. Bubble Sort            | O(n^2)     | O(n^2)       | O(n)      | O(1)             |
-| 3. Selection Sort         | O(n^2)     | O(n^2)       | O(n^2)    | O(1)             |
-| 4. Merge Sort             | O(nlogn)   | O(nlogn)     | O(nlogn)  | O(n)             |
-| 5. Quick Sort             | O(n^2)     | O(nlogn)     | O(nlogn)  | O(n)/O(logn)     |
-| 5a. Randomized Quick Sort | O(nlogn)   | O(nlogn)     | O(nlogn)  | O(logn)          |
-| 6. Counting Sort          |            |              |           |                  |
-| 7. Radix Sort             |            |              |           |                  |
-| 8. Heap Sort              |            |              |           |                  |
-| 9. Binary Tree Sort       |            |              |           |                  |
+| Name/Complexity       | Worst Case | Average Case | Best Case | Space Complexity | Stable |
+| --------------------- | ---------- | ------------ | --------- | ---------------- | ------ |
+| 1. Insertion Sort     | O(n^2)     | O(n^2)       | O(n)      | O(1)             | Yes    |
+| 2. Bubble Sort        | O(n^2)     | O(n^2)       | O(n)      | O(1)             | Yes    |
+| 3. Selection Sort     | O(n^2)     | O(n^2)       | O(n^2)    | O(1)             | No     |
+| 4. Merge Sort         | O(nlogn)   | O(nlogn)     | O(nlogn)  | O(n)             | Yes    |
+| 5. Quick Sort         | O(n^2)     | O(nlogn)     | O(nlogn)  | O(n)/O(logn)     | No     |
+| 5a. Random Quick Sort | O(nlogn)   | O(nlogn)     | O(nlogn)  | O(logn)          | No     |
+| 6. Counting Sort      | O(n+k)     | O(n+k)       | O(n+k)    | O(n+k)           | Yes    |
+
+_n = length of input array_<br>
+_k = range of input elements_
 
 ### Searching Algorithms
 
