@@ -1,6 +1,6 @@
 # DSA-JavaScript
 
-A repo of Data Structure and Algorithm concepts with JavaScript.
+A repo of Data Structures and Algorithms concepts with JavaScript.
 
 ### Sorting Algorithms
 
@@ -16,11 +16,6 @@ A repo of Data Structure and Algorithm concepts with JavaScript.
 
 _n = length of input array_<br>
 _k = range of input elements_
-
-### Searching Algorithms
-
-1. Sequential Search (Linear Search)
-2. Binary Search
 
 ### Recursion
 

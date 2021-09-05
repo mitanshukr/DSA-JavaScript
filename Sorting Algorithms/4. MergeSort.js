@@ -63,6 +63,11 @@ Merge Sort
       c : Constant
 
 4. Space Complexity: O(n)
+    Total space taken are n-length another array, and because the Merge sort 
+    does Recursive sorting, it takes O(logn) extra space on call-stack.
+    i.e. total space = O(n + logn) = O(n)
+
+  Note: Space taken on Call stacks are always equal to the height of recursive tree.
 
 5. Merge sort is stable sort, but not an in-place sort.
 

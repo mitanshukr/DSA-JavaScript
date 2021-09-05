@@ -14,3 +14,9 @@ function main(input) {
 }
 
 readInput(main);
+
+
+//Factorial Sort:
+// * This is Recursive implementation of Factorial_of_number.
+// * Time Complexity: O(c*n) => O(n); c is some constant.
+// * Space Complexity: O(n) ; because of call-stack space.
