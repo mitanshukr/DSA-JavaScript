@@ -13,9 +13,11 @@ A repo of Data Structures and Algorithms concepts with JavaScript.
 | 5. Quick Sort         | O(n^2)     | O(nlogn)     | O(nlogn)  | O(n)/O(logn)     | No     |
 | 5a. Random Quick Sort | O(nlogn)   | O(nlogn)     | O(nlogn)  | O(logn)          | No     |
 | 6. Counting Sort      | O(n+k)     | O(n+k)       | O(n+k)    | O(n+k)           | Yes    |
+| 7. Radix Sort         | O(d\*n)    | O(d\*n)      | O(d\*n)   | -                | Yes    |
 
 _n = length of input array_<br>
-_k = range of input elements_
+_k = range of input elements_<br>
+_d = number of digits in largest element_
 
 ### Recursion
 
