@@ -20,7 +20,7 @@ _k = range of input elements_<br>
 _d = number of digits in largest element_<br>
 _b = base Size (10 for decimals)_
 
-### Recursion
+### Recursion (Pending...)
 
 1. Factorial of n
 2. Summation of numbers from 1 to n
@@ -36,3 +36,11 @@ _b = base Size (10 for decimals)_
 
 1. Linear Search (Sequential Search)
 2. Binary Search
+
+### Binary Search Tree (Up next...)
+
+1. Traversal in BST
+2. Searching in BST
+3. Finding Nodes with Max. and Min. Value
+4. Insertion in BST
+5. Deletion in BST
